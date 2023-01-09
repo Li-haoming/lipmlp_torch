@@ -18,7 +18,7 @@ python ae_lipmlp_sdf.py
 ```
 One can check the loss plots and adversarial images in `lipmlp_torch/adversarial_robustness/lipschitz_autoencoder/` . Model parameters are in `ae_lipmlp_params_1.pth`
 ## Problems
-1. There is something wrong with the Lipschitz Regularization. During the training process, the MSE loss decreases as usual, however, the Lipschitz Regularization increases oddly.
+1. There is something wrong with the Lipschitz Regularization. During the training process, the MSE loss decreases as usual, however, the Lipschitz Regularization increases oddly. The adversarial images look well though.
 ## To Do
 1. Apply Lipschitz Regularization and Weight Normalization to the DeepSDF.
 2. Test time optimization.
