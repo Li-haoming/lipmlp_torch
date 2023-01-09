@@ -15,3 +15,6 @@ python ae_lipmlp_sdf.py
 ```
 ## Problems
 1. There is something wrong with the Lipschitz Regularization. During the training process, the MSE loss decreases as usual, however, the Lipschitz Regularization increases oddly.
+## To Do
+1. Apply Lipschitz Regularization and Weight Normalization to the DeepSDF.
+2. Test time optimization.
