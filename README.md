@@ -9,7 +9,9 @@ No need to install additional libs.
 ```
 python ae_sdf.py
 ```
-2. 'ae_lipmlp_sdf.py' includes the whole process of verifying the adversarial robustness of a lipschitz mlp. (Training, testing, adding adversarial attack, show robustness)
+2. 'ae_lipmlp_sdf.py' includes the whole process of verifying the adversarial robustness of a Lipschitz mlp. (Training, testing, adding adversarial attack, show robustness)
 ```
 python ae_lipmlp_sdf.py
 ```
+## Problems
+1. There is something wrong with the Lipschitz Regularization. During the training process, the MSE loss decreases as usual, however, the Lipschitz Regularization increases oddly.
