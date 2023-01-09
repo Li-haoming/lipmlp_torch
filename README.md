@@ -1,5 +1,6 @@
 # Lipschitz MLP with PyTorch
 (https://github.com/Li-haoming/lipmlp_torch)
+Learning Smooth Neural Functions via Lipschitz Regularization Hsueh-Ti Derek Liu, Francis Williams, Alec Jacobson, Sanja Fidler, Or Litany SIGGRAPH (North America), 2022(https://nv-tlabs.github.io/lip-mlp/)
 
 This is the comparative experiments using different methods to verify their performance on three tasks including Attack Robustness, Shape Interpolation & Extrapolation, and Reconstruction with Test Time Optimization.
 
