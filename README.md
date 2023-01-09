@@ -4,6 +4,7 @@
 This is the comparative experiments using different methods to verify their performance on three tasks including Attack Robustness, Shape Interpolation & Extrapolation, and Reconstruction with Test Time Optimization.
 
 ## Usage
+No need to install additional libs.
 1. 'ae_sdf.py' includes the whole process of verifying the adversarial robustness of a vanilla mlp. (Training, testing, adding adversarial attack, show robustness)
 ```
 python ae_sdf.py
