@@ -11,12 +11,12 @@ No need to install additional libs.
 ```
 python ae_sdf.py
 ```
-One can check the loss plots and adversarial images in 'lipmlp_torch/adversarial_robustness/vanilla_autoencoder/'. Model parameters are in 'ae_params_1.pth'
+One can check the loss plots and adversarial images in 'lipmlp_torch/adversarial_robustness/vanilla_autoencoder/' . Model parameters are in 'ae_params_1.pth'
 2. 'ae_lipmlp_sdf.py' includes the whole process of verifying the adversarial robustness of a Lipschitz mlp. (Training, testing, adding adversarial attack, show robustness)
 ```
 python ae_lipmlp_sdf.py
 ```
-One can check the loss plots and adversarial images in 'lipmlp_torch/adversarial_robustness/lipschitz_autoencoder/'. Model parameters are in 'ae_lipmlp_params_1.pth'
+One can check the loss plots and adversarial images in 'lipmlp_torch/adversarial_robustness/lipschitz_autoencoder/' . Model parameters are in 'ae_lipmlp_params_1.pth'
 ## Problems
 1. There is something wrong with the Lipschitz Regularization. During the training process, the MSE loss decreases as usual, however, the Lipschitz Regularization increases oddly.
 ## To Do
