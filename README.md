@@ -32,3 +32,4 @@ One can check the loss plots in `lipmlp_torch/3d_interpolation/` .
 2. How to visualize 3D SDF?
 ## To Do
 1. Apply Lipschitz Regularization and Weight Normalization to the DeepSDF.
+2. 
