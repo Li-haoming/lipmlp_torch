@@ -12,16 +12,19 @@ No need to install additional libs.
 python ae_sdf.py
 ```
 One can check the loss plots and adversarial images in `lipmlp_torch/adversarial_robustness/vanilla_autoencoder/` . Model parameters are in 'ae_params_1.pth'
+
 2. `ae_lipmlp_sdf.py` includes the whole process of verifying the adversarial robustness of a Lipschitz mlp. (Training, testing, adding adversarial attack, show robustness)
 ```
 python ae_lipmlp_sdf.py
 ```
 One can check the loss plots and adversarial images in `lipmlp_torch/adversarial_robustness/lipschitz_autoencoder/` . Model parameters are in `ae_lipmlp_params_1.pth`
+
 3. `deepsdf_2d.py` includes the whole process of 2d interpolation using a vanilla DeepSDF. (Training, testing, showing performance on MNIST)
 ```
 python deepsdf_2d.py
 ```
 One can check the loss plots and interpolation images in `lipmlp_torch/2d_interpolation/deepsdf/` .
+
 4. `deepsdf_2d.py` includes the whole process of 3d interpolation using a vanilla DeepSDF.
 ```
 python deepsdf_3d.py
